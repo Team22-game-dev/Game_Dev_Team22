@@ -11,6 +11,6 @@
 ## Creating a Pull Request
 - Navigate to [Issues on Github](https://github.com/jjoslin0994/Game_Dev_Team22/issues) and click on a desired issue, click `Create a branch for this issue or link a pull request.`, click `Checkout locally`, click `Create branch`, taking note of the branch name (e.g. `22-set-up-repo`)
 - Navigate to the directory `Game_Dev_Team22`, then run `git fetch` (or equivalent)
-- Run `git clone <branch name>` (e.g. `git clone 22-set-up-repo`)
+- Run `git checkout <branch name>` (or equivalent) (e.g. `git checkout 22-set-up-repo`)
 - Create the relevant changes on the Unity Editor
 - Navigate to [Pull Requests on GitHub](https://github.com/jjoslin0994/Game_Dev_Team22/pulls), click on `New pull request`, click on the branch you worked on, click `Create pull request`, update the title, description, reviewers, and assignees as desired, then click `Create pull request`
