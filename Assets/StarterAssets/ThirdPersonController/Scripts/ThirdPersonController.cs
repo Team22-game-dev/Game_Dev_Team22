@@ -376,7 +376,7 @@ namespace StarterAssets
 
         private void OnFootstep(AnimationEvent animationEvent)
         {
-            if (animationEvent.animatorClipInfo.weight > 0.5f)
+            if (animationEvent.animatorClipInfo.weight > 0.5f && Grounded)
             {
                 if (FootstepAudioClips.Length > 0)
                 {
